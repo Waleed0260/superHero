@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="power-stat"
+>
+  <div
+    className="power"
+  >
+    <div
+      className="img"
+    >
+      <img
+        alt=""
+      />
+      <h1>
+        -
+        <span />
+      </h1>
+    </div>
+    <div
+      className="stats"
+    >
+      <ul>
+        <li>
+          <span>
+            Intelligance
+          </span>
+          <span />
+        </li>
+        <li>
+          <span>
+            Speed
+          </span>
+          <span />
+        </li>
+        <li>
+          <span>
+            Strength
+          </span>
+          <span />
+        </li>
+        <li>
+          <span>
+            Durability
+          </span>
+          <span />
+        </li>
+        <li>
+          <span>
+            Power
+          </span>
+          <span />
+        </li>
+        <li>
+          <span>
+            Combat
+          </span>
+          <span />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
