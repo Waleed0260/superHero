@@ -1,0 +1,138 @@
+.ho{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+/* .power-stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.power{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+}
+.img>img{
+    height: 450px;
+    /* width: 380px; */
+    width: 28vw;
+    /* margin-top: -70px; */
+    margin-left: 30px;
+}
+.img>h1{
+    margin-top: -10px;
+    color: orange;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+   
+}
+.img>h1>span{
+ color: orange;
+
+}
+.stats{
+    display: flex;
+    flex: 1;
+    /* margin-left: -320px; */
+    width: 50vw;
+    position: absolute;
+    right: 120px;
+    /* background-color: blue; */
+    margin-top: 100px;
+}
+.stats>ul>li{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 29vw;
+    border-bottom: 4px solid rgb(41, 41, 41);
+}
+.stats>ul>li>:nth-of-type(1){
+    text-transform: uppercase;
+}
+.stats>ul>li>:nth-of-type(2){
+    color: rgb(255, 166, 0);
+}
+
+
+/* 
+@media screen and (max-width:900px) {
+    .img>img{
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    .img>h1{
+        position: absolute;
+        left: 34vw;
+    }
+    .stats{
+        position: absolute;
+        top: 40vh;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    .stats{
+        margin-top: 560px;
+        /* right: 320px; */
+        left: 40px;
+        /* margin-right: 200px; */
+    }
+    .stats>ul>li{
+        gap: 62vw;
+    }
+
+    .img>img{
+        width: 70vw;
+        margin-top: 60px;
+        height: 360px;
+        margin-left: 60px;
+    }
+    .img>h1{
+        margin-top: 10px;
+        margin-left: -300px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+ .stats>ul>li{
+    gap: 47vw;
+ }   
+ .img>img{
+    margin-left: 40px;
+ }
+ .img>h1{
+    font-size: 200;
+    margin-left:-350px;
+ }
+ .img{
+    margin-top: 80px;
+ }
+ .stats{
+    margin-top: 580px;
+ }
+}
+
+
+@media screen and (max-width:500px) {
+    .stats{
+        left: -20px;
+    }
+    .stats>ul>li{
+        gap: 58vw;
+    }
+}
